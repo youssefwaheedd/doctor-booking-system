@@ -24,6 +24,15 @@ Doctor Booking System is a comprehensive appointment management system designed 
 - Track appointment history and statistics
 - Complete appointment management workflow
 
+## Demo Accounts
+
+### Admin Account
+
+To access the admin dashboard, use the following credentials:
+
+- Email: admin@example.com
+- Password: admin
+
 ## Technical Stack
 
 - **Frontend**: React with TypeScript
