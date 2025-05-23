@@ -70,27 +70,12 @@ To access the admin dashboard, use the following credentials:
    yarn install
    ```
 
-3. Set up environment variables:
-   Create a `.env` file in the root directory with the following variables:
-
-   ```
-   VITE_SUPABASE_URL=your_supabase_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-
-4. Start the development server:
+3. Start the development server:
    ```bash
    npm run dev
    # or
    yarn dev
    ```
-
-## Database Setup
-
-1. Create a new Supabase project
-2. Run the SQL commands from `src/database/schema.sql` in your Supabase SQL editor
-3. Configure authentication settings in Supabase dashboard
-4. Set up Row Level Security (RLS) policies as defined in the schema
 
 ## Project Structure
 
@@ -113,18 +98,3 @@ src/
 - Protected routes for authenticated users
 - Role-based access control (admin/patient)
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support, please open an issue in the GitHub repository or contact the development team.
