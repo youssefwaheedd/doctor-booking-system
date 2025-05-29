@@ -66,14 +66,18 @@ To access the admin dashboard, use the following credentials:
 
    ```bash
    npm install
+   ```
    # or
+   ```bash
    yarn install
    ```
 
 3. Start the development server:
    ```bash
    npm run dev
+   ```
    # or
+   ```bash
    yarn dev
    ```
 
